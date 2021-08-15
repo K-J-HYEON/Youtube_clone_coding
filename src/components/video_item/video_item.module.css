@@ -1,6 +1,13 @@
 .container {
-  width: 50%;
   padding: 0.2em;
+}
+
+.container.grid {
+  width: 50%;
+}
+
+.container.list {
+  width: 100%;
 }
 
 .video {
@@ -9,7 +16,7 @@
   display: flex;
   align-items: center;
   border: 1px solid lightgray;
-  box-shadow: 14px 26px 35px -6px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
   cursor: pointer;
   transition: transform 250ms ease-in;
 }
@@ -19,12 +26,12 @@
 }
 
 .thumbnail {
-  width: 30%;
+  width: 40%;
   height: 100%;
 }
 
 .metadata {
-  margin-left: 0.5em;
+  margin-left: 0.2em;
 }
 
 .title,
@@ -34,5 +41,5 @@
 }
 
 .channel {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
